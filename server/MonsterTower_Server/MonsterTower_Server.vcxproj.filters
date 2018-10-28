@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="cMonster.cpp">
+      <Filter>source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="cMyNamespace.cpp">
+      <Filter>MyNamespace</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EnduringLifeServer.cpp">
+      <Filter>source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="cSector.cpp">
+      <Filter>source\Zone&amp;Sector</Filter>
+    </ClCompile>
+    <ClCompile Include="cZone.cpp">
+      <Filter>source\Zone&amp;Sector</Filter>
+    </ClCompile>
+    <ClCompile Include="Dump.cpp">
+      <Filter>Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="cServer.cpp">
+      <Filter>source\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="cThreadFunc.cpp">
+      <Filter>source\ThreadFunc</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterAI.cpp">
+      <Filter>source\MonsterFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffect.cpp">
+      <Filter>source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogIn.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="CManager.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="CMember.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript_API.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cMonster.h">
+      <Filter>source\object</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>source\object</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>source\object</Filter>
+    </ClInclude>
+    <ClInclude Include="cMyNamespace.h">
+      <Filter>MyNamespace</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cSector.h">
+      <Filter>source\Zone&amp;Sector</Filter>
+    </ClInclude>
+    <ClInclude Include="cZone.h">
+      <Filter>source\Zone&amp;Sector</Filter>
+    </ClInclude>
+    <ClInclude Include="Dump.h">
+      <Filter>Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlapped_Ex.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHeader.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cServer.h">
+      <Filter>source\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="cThreadFunc.h">
+      <Filter>source\ThreadFunc</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterAI.h">
+      <Filter>source\MonsterFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffect.h">
+      <Filter>source\object</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogIn.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="CManager.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="CMember.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript_API.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\lauxlib.h">
+      <Filter>LuaLib</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\lua.h">
+      <Filter>LuaLib</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\lua.hpp">
+      <Filter>LuaLib</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\luaconf.h">
+      <Filter>LuaLib</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript\lualib.h">
+      <Filter>LuaLib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{fc494827-1957-4426-a54c-41e05f8e3742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyNamespace">
+      <UniqueIdentifier>{fa36e5ae-f925-4a37-b429-e57e9f6ea13b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dump">
+      <UniqueIdentifier>{675f3eb8-9880-4c11-b8fd-04f97f9f6228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4377893f-c971-4d7d-ac32-e01fde13ca2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Zone&amp;Sector">
+      <UniqueIdentifier>{85ce80d8-2348-4dba-8c78-32a419304663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ThreadFunc">
+      <UniqueIdentifier>{4c04e09d-cf83-4711-8e84-d7325bd90af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Scene">
+      <UniqueIdentifier>{4629b89d-7396-4bbd-b49b-0bb48e5b4810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\object">
+      <UniqueIdentifier>{4a28ebd7-4e26-4f97-9645-24929e95fc73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Server">
+      <UniqueIdentifier>{57b2b1b9-661b-4580-a816-698a52f110d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Main">
+      <UniqueIdentifier>{a12aa58c-5f46-49ba-95b1-3de79cfe425a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\MonsterFSM">
+      <UniqueIdentifier>{f40cf101-03ed-4149-b57a-260bb8e0ad75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Login">
+      <UniqueIdentifier>{f6194837-032d-4036-a740-c0ac1ee78d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaLib">
+      <UniqueIdentifier>{5b6d305b-a179-4c4f-a250-00fc1272c868}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lua_Manager.lua">
+      <Filter>Login</Filter>
+    </None>
+    <None Include="test.lua">
+      <Filter>Login</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="User_data.txt">
+      <Filter>Login</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
